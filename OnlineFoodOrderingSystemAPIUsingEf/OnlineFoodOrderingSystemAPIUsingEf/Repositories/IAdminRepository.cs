@@ -1,4 +1,5 @@
 ﻿using OnlineFoodOrderingSystemAPIUsingEf.Entities;
+using System.Collections.Generic;
 
 
 namespace OnlineFoodOrderingSystemAPIUsingEf.Repositories
@@ -17,7 +18,7 @@ namespace OnlineFoodOrderingSystemAPIUsingEf.Repositories
         // Method for Updating Order by OrderId
         void UpdateOrderStatus(Orders order);
 
-        
+        public List<Menu> GetMenu(int menuId);
     }
 }
 
@@ -41,7 +42,7 @@ namespace OnlineFoodOrderingSystemAPIUsingEf.Repositories
 
 
 
-//using System.Collections.Generic;
+//
 //using OnlineFoodOrderingSystemAPIUsingEf.Models;
 //// Method for Displaying Menu Items (Repeated)
 //List<Menu> GetMenuItems();

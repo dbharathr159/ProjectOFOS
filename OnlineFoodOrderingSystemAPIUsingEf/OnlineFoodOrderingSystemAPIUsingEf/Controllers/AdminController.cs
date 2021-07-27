@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
 using System;
 using OnlineFoodOrderingSystemAPIUsingEf.Entities;
 using OnlineFoodOrderingSystemAPIUsingEf.Repositories;
@@ -79,8 +80,24 @@ namespace OnlineFoodOrderingSystemAPIUsingEf.Controllers
                 return BadRequest(ex.Message);
             }
         }
-                        
-                               
+        // Get Menu by MenuId
+        [HttpGet]
+        [Route("GetMenu/{menuId}")]
+        public IActionResult GetMenu(int menuId)
+        {
+            List<Menu> menu = _repository.GetMenu(menuId);
+
+            if (menu != null)
+            {
+                return Ok(menu);
+            }
+            else
+            {
+                return NotFound("Invalid Menu");
+            }
+        }
+
+
     }
 }
 
@@ -98,24 +115,9 @@ namespace OnlineFoodOrderingSystemAPIUsingEf.Controllers
 
 
 //using OnlineFoodOrderingSystemAPIUsingEf.Models;
-//using System.Collections.Generic;
+//
 
-// Get Menu by MenuId
-//[HttpGet]
-//[Route("GetMenu/{menuId}")]
-//public IActionResult GetMenu(int menuId)
-//{
-//    List<Menu> menu = _repository.GetMenu(menuId);
 
-//    if (menu != null)
-//    {
-//        return Ok(menu);
-//    }
-//    else
-//    {
-//        return NotFound("Invalid Menu");
-//    }
-//}
 // Get Customers
 //[HttpGet]
 //[Route("GetCustomers")]
