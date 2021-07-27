@@ -1,0 +1,122 @@
+D:\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\appsettings.Development.json
+D:\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\appsettings.json
+D:\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\OnlineFoodOrderingSystemAPIUsingEf.exe
+D:\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\OnlineFoodOrderingSystemAPIUsingEf.deps.json
+D:\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\OnlineFoodOrderingSystemAPIUsingEf.runtimeconfig.json
+D:\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\OnlineFoodOrderingSystemAPIUsingEf.runtimeconfig.dev.json
+D:\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\OnlineFoodOrderingSystemAPIUsingEf.dll
+D:\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\ref\OnlineFoodOrderingSystemAPIUsingEf.dll
+D:\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\OnlineFoodOrderingSystemAPIUsingEf.pdb
+D:\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\Humanizer.dll
+D:\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+D:\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+D:\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\System.Runtime.Caching.dll
+D:\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\obj\Debug\net5.0\OnlineFoodOrderingSystemAPIUsingEf.csproj.AssemblyReference.cache
+D:\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\obj\Debug\net5.0\OnlineFoodOrderingSystemAPIUsingEf.GeneratedMSBuildEditorConfig.editorconfig
+D:\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\obj\Debug\net5.0\OnlineFoodOrderingSystemAPIUsingEf.AssemblyInfoInputs.cache
+D:\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\obj\Debug\net5.0\OnlineFoodOrderingSystemAPIUsingEf.AssemblyInfo.cs
+D:\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\obj\Debug\net5.0\OnlineFoodOrderingSystemAPIUsingEf.csproj.CoreCompileInputs.cache
+D:\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\obj\Debug\net5.0\OnlineFoodOrderingSystemAPIUsingEf.MvcApplicationPartsAssemblyInfo.cs
+D:\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\obj\Debug\net5.0\OnlineFoodOrderingSystemAPIUsingEf.MvcApplicationPartsAssemblyInfo.cache
+D:\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\obj\Debug\net5.0\staticwebassets\OnlineFoodOrderingSystemAPIUsingEf.StaticWebAssets.Manifest.cache
+D:\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\obj\Debug\net5.0\staticwebassets\OnlineFoodOrderingSystemAPIUsingEf.StaticWebAssets.xml
+D:\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\obj\Debug\net5.0\scopedcss\bundle\OnlineFoodOrderingSystemAPIUsingEf.styles.css
+D:\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\obj\Debug\net5.0\OnlineFoodOrderingSystemAPIUsingEf.RazorTargetAssemblyInfo.cache
+D:\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\obj\Debug\net5.0\OnlineFoodOrderingSystemAPIUsingEf.csproj.CopyComplete
+D:\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\obj\Debug\net5.0\OnlineFoodOrderingSystemAPIUsingEf.dll
+D:\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\obj\Debug\net5.0\ref\OnlineFoodOrderingSystemAPIUsingEf.dll
+D:\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\obj\Debug\net5.0\OnlineFoodOrderingSystemAPIUsingEf.pdb
+D:\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\obj\Debug\net5.0\OnlineFoodOrderingSystemAPIUsingEf.genruntimeconfig.cache
+C:\Users\dbhar\OneDrive\Desktop\New folder\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\dbhar\OneDrive\Desktop\New folder\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\appsettings.json
+C:\Users\dbhar\OneDrive\Desktop\New folder\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\OnlineFoodOrderingSystemAPIUsingEf.exe
+C:\Users\dbhar\OneDrive\Desktop\New folder\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\OnlineFoodOrderingSystemAPIUsingEf.deps.json
+C:\Users\dbhar\OneDrive\Desktop\New folder\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\OnlineFoodOrderingSystemAPIUsingEf.runtimeconfig.json
+C:\Users\dbhar\OneDrive\Desktop\New folder\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\OnlineFoodOrderingSystemAPIUsingEf.runtimeconfig.dev.json
+C:\Users\dbhar\OneDrive\Desktop\New folder\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\OnlineFoodOrderingSystemAPIUsingEf.dll
+C:\Users\dbhar\OneDrive\Desktop\New folder\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\ref\OnlineFoodOrderingSystemAPIUsingEf.dll
+C:\Users\dbhar\OneDrive\Desktop\New folder\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\OnlineFoodOrderingSystemAPIUsingEf.pdb
+C:\Users\dbhar\OneDrive\Desktop\New folder\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\Humanizer.dll
+C:\Users\dbhar\OneDrive\Desktop\New folder\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\dbhar\OneDrive\Desktop\New folder\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\dbhar\OneDrive\Desktop\New folder\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\dbhar\OneDrive\Desktop\New folder\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\dbhar\OneDrive\Desktop\New folder\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\dbhar\OneDrive\Desktop\New folder\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\dbhar\OneDrive\Desktop\New folder\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\dbhar\OneDrive\Desktop\New folder\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\dbhar\OneDrive\Desktop\New folder\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\dbhar\OneDrive\Desktop\New folder\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\dbhar\OneDrive\Desktop\New folder\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\dbhar\OneDrive\Desktop\New folder\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\dbhar\OneDrive\Desktop\New folder\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\dbhar\OneDrive\Desktop\New folder\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\dbhar\OneDrive\Desktop\New folder\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\dbhar\OneDrive\Desktop\New folder\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\dbhar\OneDrive\Desktop\New folder\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\dbhar\OneDrive\Desktop\New folder\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\dbhar\OneDrive\Desktop\New folder\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\dbhar\OneDrive\Desktop\New folder\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\dbhar\OneDrive\Desktop\New folder\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\dbhar\OneDrive\Desktop\New folder\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\dbhar\OneDrive\Desktop\New folder\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\dbhar\OneDrive\Desktop\New folder\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\dbhar\OneDrive\Desktop\New folder\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\dbhar\OneDrive\Desktop\New folder\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\dbhar\OneDrive\Desktop\New folder\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\dbhar\OneDrive\Desktop\New folder\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\dbhar\OneDrive\Desktop\New folder\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\dbhar\OneDrive\Desktop\New folder\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\dbhar\OneDrive\Desktop\New folder\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\dbhar\OneDrive\Desktop\New folder\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\dbhar\OneDrive\Desktop\New folder\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\dbhar\OneDrive\Desktop\New folder\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\dbhar\OneDrive\Desktop\New folder\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\dbhar\OneDrive\Desktop\New folder\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\obj\Debug\net5.0\OnlineFoodOrderingSystemAPIUsingEf.csproj.AssemblyReference.cache
+C:\Users\dbhar\OneDrive\Desktop\New folder\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\obj\Debug\net5.0\OnlineFoodOrderingSystemAPIUsingEf.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dbhar\OneDrive\Desktop\New folder\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\obj\Debug\net5.0\OnlineFoodOrderingSystemAPIUsingEf.AssemblyInfoInputs.cache
+C:\Users\dbhar\OneDrive\Desktop\New folder\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\obj\Debug\net5.0\OnlineFoodOrderingSystemAPIUsingEf.AssemblyInfo.cs
+C:\Users\dbhar\OneDrive\Desktop\New folder\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\obj\Debug\net5.0\OnlineFoodOrderingSystemAPIUsingEf.csproj.CoreCompileInputs.cache
+C:\Users\dbhar\OneDrive\Desktop\New folder\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\obj\Debug\net5.0\OnlineFoodOrderingSystemAPIUsingEf.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\dbhar\OneDrive\Desktop\New folder\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\obj\Debug\net5.0\OnlineFoodOrderingSystemAPIUsingEf.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\dbhar\OneDrive\Desktop\New folder\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\obj\Debug\net5.0\staticwebassets\OnlineFoodOrderingSystemAPIUsingEf.StaticWebAssets.Manifest.cache
+C:\Users\dbhar\OneDrive\Desktop\New folder\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\obj\Debug\net5.0\staticwebassets\OnlineFoodOrderingSystemAPIUsingEf.StaticWebAssets.xml
+C:\Users\dbhar\OneDrive\Desktop\New folder\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\obj\Debug\net5.0\scopedcss\bundle\OnlineFoodOrderingSystemAPIUsingEf.styles.css
+C:\Users\dbhar\OneDrive\Desktop\New folder\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\obj\Debug\net5.0\OnlineFoodOrderingSystemAPIUsingEf.RazorTargetAssemblyInfo.cache
+C:\Users\dbhar\OneDrive\Desktop\New folder\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\obj\Debug\net5.0\OnlineFoodOrderingSystemAPIUsingEf.csproj.CopyComplete
+C:\Users\dbhar\OneDrive\Desktop\New folder\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\obj\Debug\net5.0\OnlineFoodOrderingSystemAPIUsingEf.dll
+C:\Users\dbhar\OneDrive\Desktop\New folder\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\obj\Debug\net5.0\ref\OnlineFoodOrderingSystemAPIUsingEf.dll
+C:\Users\dbhar\OneDrive\Desktop\New folder\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\obj\Debug\net5.0\OnlineFoodOrderingSystemAPIUsingEf.pdb
+C:\Users\dbhar\OneDrive\Desktop\New folder\SprintPractice\OnlineFoodOrderingSystemAPIUsingEf\OnlineFoodOrderingSystemAPIUsingEf\obj\Debug\net5.0\OnlineFoodOrderingSystemAPIUsingEf.genruntimeconfig.cache
