@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using OnlineFoodOrderingSystemAPIUsingEf.Entities;
 using OnlineFoodOrderingSystemAPIUsingEf.Repositories;
-using OnlineFoodOrderingSystemAPIUsingEf.Models;
 using System;
 
 namespace OnlineFoodOrderingSystemAPIUsingEf.Controllers

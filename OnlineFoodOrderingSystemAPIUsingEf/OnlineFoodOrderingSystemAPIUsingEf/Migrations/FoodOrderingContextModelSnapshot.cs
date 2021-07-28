@@ -3,17 +3,15 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
-using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using OnlineFoodOrderingSystemAPIUsingEf.Entities;
 
 namespace OnlineFoodOrderingSystemAPIUsingEf.Migrations
 {
     [DbContext(typeof(FoodOrderingContext))]
-    [Migration("20210728045057_twentythree")]
-    partial class twentythree
+    partial class FoodOrderingContextModelSnapshot : ModelSnapshot
     {
-        protected override void BuildTargetModel(ModelBuilder modelBuilder)
+        protected override void BuildModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -135,7 +133,14 @@ namespace OnlineFoodOrderingSystemAPIUsingEf.Migrations
                     b.Property<decimal>("Total")
                         .HasColumnType("Decimal");
 
+                    b.Property<int?>("ordersOrderId")
+                        .HasColumnType("int");
+
                     b.HasKey("OrderItemId");
+
+                    b.HasIndex("MenuId");
+
+                    b.HasIndex("ordersOrderId");
 
                     b.ToTable("OrderItem");
                 });
@@ -158,6 +163,8 @@ namespace OnlineFoodOrderingSystemAPIUsingEf.Migrations
                         .HasColumnType("Varchar(20)");
 
                     b.HasKey("OrderId");
+
+                    b.HasIndex("CustomerId");
 
                     b.ToTable("Orders");
                 });
@@ -183,9 +190,51 @@ namespace OnlineFoodOrderingSystemAPIUsingEf.Migrations
                     b.Property<decimal>("TotalAmount")
                         .HasColumnType("Decimal");
 
+                    b.Property<int?>("ordersOrderId")
+                        .HasColumnType("int");
+
                     b.HasKey("PaymentId");
 
+                    b.HasIndex("ordersOrderId");
+
                     b.ToTable("Payment");
+                });
+
+            modelBuilder.Entity("OnlineFoodOrderingSystemAPIUsingEf.Entities.OrderItem", b =>
+                {
+                    b.HasOne("OnlineFoodOrderingSystemAPIUsingEf.Entities.Menu", "menu")
+                        .WithMany()
+                        .HasForeignKey("MenuId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("OnlineFoodOrderingSystemAPIUsingEf.Entities.Orders", "orders")
+                        .WithMany()
+                        .HasForeignKey("ordersOrderId");
+
+                    b.Navigation("menu");
+
+                    b.Navigation("orders");
+                });
+
+            modelBuilder.Entity("OnlineFoodOrderingSystemAPIUsingEf.Entities.Orders", b =>
+                {
+                    b.HasOne("OnlineFoodOrderingSystemAPIUsingEf.Entities.Customer", "customer")
+                        .WithMany()
+                        .HasForeignKey("CustomerId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("customer");
+                });
+
+            modelBuilder.Entity("OnlineFoodOrderingSystemAPIUsingEf.Entities.Payment", b =>
+                {
+                    b.HasOne("OnlineFoodOrderingSystemAPIUsingEf.Entities.Orders", "orders")
+                        .WithMany()
+                        .HasForeignKey("ordersOrderId");
+
+                    b.Navigation("orders");
                 });
 #pragma warning restore 612, 618
         }

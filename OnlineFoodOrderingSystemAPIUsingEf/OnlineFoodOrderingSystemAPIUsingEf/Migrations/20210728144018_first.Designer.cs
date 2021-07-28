@@ -10,8 +10,8 @@ using OnlineFoodOrderingSystemAPIUsingEf.Entities;
 namespace OnlineFoodOrderingSystemAPIUsingEf.Migrations
 {
     [DbContext(typeof(FoodOrderingContext))]
-    [Migration("20210724161207_second")]
-    partial class second
+    [Migration("20210728144018_first")]
+    partial class first
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -23,7 +23,7 @@ namespace OnlineFoodOrderingSystemAPIUsingEf.Migrations
 
             modelBuilder.Entity("OnlineFoodOrderingSystemAPIUsingEf.Entities.Admin", b =>
                 {
-                    b.Property<int>("Userid")
+                    b.Property<int>("UserId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
@@ -40,24 +40,28 @@ namespace OnlineFoodOrderingSystemAPIUsingEf.Migrations
                         .HasMaxLength(20)
                         .HasColumnType("Varchar(20)");
 
-                    b.Property<long?>("Mobile")
+                    b.Property<long>("Mobile")
                         .HasColumnType("Bigint");
 
                     b.Property<string>("Password")
                         .HasMaxLength(20)
                         .HasColumnType("Varchar(20)");
 
-                    b.HasKey("Userid");
+                    b.HasKey("UserId");
 
                     b.ToTable("Admin");
                 });
 
             modelBuilder.Entity("OnlineFoodOrderingSystemAPIUsingEf.Entities.Customer", b =>
                 {
-                    b.Property<int?>("Customerid")
+                    b.Property<int>("CustomerId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("DeliveryAddress")
+                        .HasMaxLength(20)
+                        .HasColumnType("Varchar(20)");
 
                     b.Property<string>("Email")
                         .HasMaxLength(20)
@@ -71,25 +75,21 @@ namespace OnlineFoodOrderingSystemAPIUsingEf.Migrations
                         .HasMaxLength(20)
                         .HasColumnType("Varchar(20)");
 
-                    b.Property<long?>("Mobile")
+                    b.Property<long>("Mobile")
                         .HasColumnType("Bigint");
 
                     b.Property<string>("Password")
                         .HasMaxLength(20)
                         .HasColumnType("Varchar(20)");
 
-                    b.Property<string>("Status")
-                        .HasMaxLength(20)
-                        .HasColumnType("Varchar(20)");
-
-                    b.HasKey("Customerid");
+                    b.HasKey("CustomerId");
 
                     b.ToTable("Customer");
                 });
 
             modelBuilder.Entity("OnlineFoodOrderingSystemAPIUsingEf.Entities.Menu", b =>
                 {
-                    b.Property<int?>("Menuid")
+                    b.Property<int>("MenuId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
@@ -102,25 +102,59 @@ namespace OnlineFoodOrderingSystemAPIUsingEf.Migrations
                         .HasMaxLength(20)
                         .HasColumnType("Varchar(20)");
 
-                    b.Property<decimal?>("Price")
-                        .HasColumnType("Decimal");
-
-                    b.Property<int?>("Quantity")
+                    b.Property<int>("Price")
                         .HasColumnType("int");
 
-                    b.HasKey("Menuid");
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
+
+                    b.HasKey("MenuId");
 
                     b.ToTable("Menu");
                 });
 
-            modelBuilder.Entity("OnlineFoodOrderingSystemAPIUsingEf.Entities.Order", b =>
+            modelBuilder.Entity("OnlineFoodOrderingSystemAPIUsingEf.Entities.OrderItem", b =>
                 {
-                    b.Property<int?>("Orderid")
+                    b.Property<int>("OrderItemId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int?>("Customerid")
+                    b.Property<decimal>("Amount")
+                        .HasColumnType("Decimal");
+
+                    b.Property<int>("MenuId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("NoOfServing")
+                        .HasColumnType("int");
+
+                    b.Property<int>("OrderId")
+                        .HasColumnType("int");
+
+                    b.Property<decimal>("Total")
+                        .HasColumnType("Decimal");
+
+                    b.Property<int?>("ordersOrderId")
+                        .HasColumnType("int");
+
+                    b.HasKey("OrderItemId");
+
+                    b.HasIndex("MenuId");
+
+                    b.HasIndex("ordersOrderId");
+
+                    b.ToTable("OrderItem");
+                });
+
+            modelBuilder.Entity("OnlineFoodOrderingSystemAPIUsingEf.Entities.Orders", b =>
+                {
+                    b.Property<int>("OrderId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int>("CustomerId")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("OrderDate")
@@ -130,99 +164,79 @@ namespace OnlineFoodOrderingSystemAPIUsingEf.Migrations
                         .HasMaxLength(20)
                         .HasColumnType("Varchar(20)");
 
-                    b.Property<decimal?>("TotalAmount")
-                        .HasColumnType("Decimal");
+                    b.HasKey("OrderId");
 
-                    b.HasKey("Orderid");
+                    b.HasIndex("CustomerId");
 
-                    b.HasIndex("Customerid");
-
-                    b.ToTable("Order");
-                });
-
-            modelBuilder.Entity("OnlineFoodOrderingSystemAPIUsingEf.Entities.OrderItem", b =>
-                {
-                    b.Property<decimal?>("Amount")
-                        .HasColumnType("Decimal");
-
-                    b.Property<int?>("Menuid")
-                        .HasColumnType("int");
-
-                    b.Property<int?>("NoOfServing")
-                        .HasColumnType("int");
-
-                    b.Property<int?>("Orderid")
-                        .HasColumnType("int");
-
-                    b.Property<decimal?>("Total")
-                        .HasColumnType("Decimal");
-
-                    b.HasIndex("Menuid");
-
-                    b.HasIndex("Orderid");
-
-                    b.ToTable("OrderItem");
+                    b.ToTable("Orders");
                 });
 
             modelBuilder.Entity("OnlineFoodOrderingSystemAPIUsingEf.Entities.Payment", b =>
                 {
-                    b.Property<int>("Paymentid")
+                    b.Property<int>("PaymentId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int?>("Orderid")
+                    b.Property<int>("OrderId")
                         .HasColumnType("int");
 
                     b.Property<string>("PaidBy")
                         .HasMaxLength(20)
                         .HasColumnType("Varchar(20)");
 
-                    b.Property<string>("Status")
+                    b.Property<string>("PaymentStatus")
                         .HasMaxLength(20)
                         .HasColumnType("Varchar(20)");
 
-                    b.Property<decimal?>("TotalAmount")
+                    b.Property<decimal>("TotalAmount")
                         .HasColumnType("Decimal");
 
-                    b.HasKey("Paymentid");
+                    b.Property<int?>("ordersOrderId")
+                        .HasColumnType("int");
 
-                    b.HasIndex("Orderid");
+                    b.HasKey("PaymentId");
+
+                    b.HasIndex("ordersOrderId");
 
                     b.ToTable("Payment");
                 });
 
-            modelBuilder.Entity("OnlineFoodOrderingSystemAPIUsingEf.Entities.Order", b =>
-                {
-                    b.HasOne("OnlineFoodOrderingSystemAPIUsingEf.Entities.Customer", "Customer")
-                        .WithMany()
-                        .HasForeignKey("Customerid");
-
-                    b.Navigation("Customer");
-                });
-
             modelBuilder.Entity("OnlineFoodOrderingSystemAPIUsingEf.Entities.OrderItem", b =>
                 {
-                    b.HasOne("OnlineFoodOrderingSystemAPIUsingEf.Entities.Menu", "Menu")
+                    b.HasOne("OnlineFoodOrderingSystemAPIUsingEf.Entities.Menu", "menu")
                         .WithMany()
-                        .HasForeignKey("Menuid");
+                        .HasForeignKey("MenuId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
-                    b.HasOne("OnlineFoodOrderingSystemAPIUsingEf.Entities.Order", "Order")
+                    b.HasOne("OnlineFoodOrderingSystemAPIUsingEf.Entities.Orders", "orders")
                         .WithMany()
-                        .HasForeignKey("Orderid");
+                        .HasForeignKey("ordersOrderId");
 
-                    b.Navigation("Menu");
+                    b.Navigation("menu");
 
-                    b.Navigation("Order");
+                    b.Navigation("orders");
+                });
+
+            modelBuilder.Entity("OnlineFoodOrderingSystemAPIUsingEf.Entities.Orders", b =>
+                {
+                    b.HasOne("OnlineFoodOrderingSystemAPIUsingEf.Entities.Customer", "customer")
+                        .WithMany()
+                        .HasForeignKey("CustomerId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("customer");
                 });
 
             modelBuilder.Entity("OnlineFoodOrderingSystemAPIUsingEf.Entities.Payment", b =>
                 {
-                    b.HasOne("OnlineFoodOrderingSystemAPIUsingEf.Entities.Order", "Order")
+                    b.HasOne("OnlineFoodOrderingSystemAPIUsingEf.Entities.Orders", "orders")
                         .WithMany()
-                        .HasForeignKey("Orderid");
+                        .HasForeignKey("ordersOrderId");
 
-                    b.Navigation("Order");
+                    b.Navigation("orders");
                 });
 #pragma warning restore 612, 618
         }
