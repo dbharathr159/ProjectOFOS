@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
+using OnlineFoodOrderingSystemAPIUsingEf.Entities;
 
 namespace OnlineFoodOrderingSystemAPIUsingEf.Entities
 {
@@ -13,12 +14,15 @@ namespace OnlineFoodOrderingSystemAPIUsingEf.Entities
         //Primary Key
         public int OrderItemId { get; set; }
         //Foreign Key
-        public int OrderId { get; set; }
         [ForeignKey("OrderId")]
+        public int OrderId { get; set; }
+        private Orders orders { get; set; }
 
         //Foreign Key
-        public int MenuId { get; set; }
         [ForeignKey("MenuId")]
+        public int MenuId { get; set; }
+        private Menu menu { get; set; }
+        
   
         [Column(TypeName = "Decimal")]
         public int Amount { get; set; }

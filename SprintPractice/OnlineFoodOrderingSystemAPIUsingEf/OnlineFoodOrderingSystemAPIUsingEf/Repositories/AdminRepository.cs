@@ -37,7 +37,7 @@ namespace OnlineFoodOrderingSystemAPIUsingEf.Repositories
             context.SaveChanges();
         }
         
-        // Get Menu Item  Details by MenuId -- Implementing StoredProcedure       
+        // Get Menu Item  Details by MenuId -- Implemented StoredProcedure       
         public List<Menu> GetMenu(int menuId)
         {
             List<Menu> menu = context.Menu.FromSqlRaw("sp_GetMenuByMenuId {0}", menuId).ToList();

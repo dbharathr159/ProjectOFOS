@@ -13,8 +13,10 @@ namespace OnlineFoodOrderingSystemAPIUsingEf.Entities
         public int PaymentId { get; set; }
 
         //Foreign Key
-        public int OrderId { get; set; }
         [ForeignKey("OrderId")]
+        public int OrderId { get; set; }
+        private Orders orders { get; set; }
+ 
 
         [Column(TypeName = "Decimal")]
         public int TotalAmount { get; set; }
